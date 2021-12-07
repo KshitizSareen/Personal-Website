@@ -1,0 +1,197 @@
+{
+  "main": {
+    "name":"Personal Website",
+    "description":"I am a software engineer and I am currently pursuing my masters at San Francisco State University. I have over one year of work experience in CRM development, and I have made projects related to image processing and mobile application development.",
+    "image":"profilepic.jpg",
+    "bio":"I am a software engineer and I am currently pursuing my masters at San Francisco State University. I have over one year of work experience in CRM development, and I have made projects related to image processing and mobile application development.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "Kshitizsareen709@gmail.com",
+    "phone": "+256-706-121-515",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://www.icloud.com/iclouddrive/0sk5Hvh14H6jxfmJdJxXsLbgw#Kshitiz_Tech_Resume",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/kshitiz075",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/kshitiz-sareen-6783879a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/kshitizsareen/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/KshitizSareen",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"San Francisco State University",
+        "degree":"Masters in Computer Science",
+        "graduated":"Aug 2021 - June 2023",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Dhirubhai Ambani Institute of Information and Communication Technology",
+        "degree":"Bachelors in Information and Communication Technology",
+        "graduated":"Aug 2016 - June 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Synoptek",
+        "title":"Software Engineer",
+        "years":"Jan 2020 - July 2021",
+        "description":"Worked with Microsoft Dynamics CRM to build, optimize and manage company data to maximize profits."
+      },
+      {
+        "company":"Self Employed",
+        "title":"Private Tutor",
+        "years":"Feb 2021 - July 2021",
+        "description":"Taught HTML, CSS and Python to 3 students in age group of 14-17."
+      }
+    ],
+    "projects":[
+      {
+        "name": "React-Native-Build-Charts",
+        "tags": "React-Native, Javascript, SVG, Graphs, Charts",
+        "description": "Built a react native npm module that takes in data and returns a chart that plots that data. The different types of charts that can be plotted are a bar chart, pie chart and line chart. Built module using react-native-svg. Has reached over 500 weekly downloads.",
+        "link": "https://github.com/KshitizSareen/react-native-build-charts"
+        },
+      {
+      "name": "React-Native-Image-Filter-Android",
+      "tags": "React-Native, Javascript, Java, Image processing",
+      "description": "Built a react native npm module that takes in an image and returns a filtered image. Built native modules using java, for performing different types of operations like grayscale, saturation, compression, rotation, cropping, colour filtering and contrast enhancement. Has reached over 1300 weekly downloads.",
+      "link": "https://github.com/KshitizSareen/react-native-image-filter-android"
+      },
+      {
+        "name": "React-Native-Slice-Image",
+        "tags": "React-Native, Javascript, Java, Image processing",
+        "description": "Built a react native npm module that takes in an image and cuts a part of that image by using panning. Built the panning functionality using the React Native Animated Library, and the cropping functionality with the React-Native-Image-Editor Library. Has reached over 400 weekly downloads.",
+        "link": "https://github.com/KshitizSareen/react-native-slice-image"
+        },
+        {
+          "name": "React-Native-Send-Receive-SMS-Android",
+          "tags": "React-Native, Javascript, Java, SMS Api, Android Studio",
+          "description": "Built a react native npm module that sends and receives SMS using the SMS manager in Android. Has touched 286 weekly downloads.",
+          "link": "https://github.com/KshitizSareen/react-native-send-receive-sms-android"
+          }
+
+    ],
+    "skills":[
+      {
+        "name":"Python"
+      },
+      {
+        "name":"Javascript"
+      },
+      {
+        "name":"C"
+      },
+      {
+        "name":"C#"
+      },
+      {
+        "name":"React-native"
+      },
+      {
+        "name":"Java"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
