@@ -12,7 +12,7 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home">
+      <>
         <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap">
@@ -83,7 +83,7 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
-      </header>
+      </>
     );
   }
 }

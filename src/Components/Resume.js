@@ -23,7 +23,6 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
         </div>
       );
     });
@@ -41,6 +40,22 @@ class Resume extends Component {
       );
     });
 
+    const projects = this.props.data.projects.map(function (project){
+      return(
+        <div key={project.name}>
+          <a href={project.link}>
+          <h3>{project.name}</h3>
+          </a>
+          <p className="info">
+            {
+              project.tags
+            }
+          </p>
+          <p>{project.description}</p>
+        </div>
+      )
+    })
+
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
@@ -48,7 +63,6 @@ class Resume extends Component {
 
       return (
         <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
           <em>{skills.name}</em>
         </li>
       );
@@ -85,6 +99,18 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Projects</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{projects}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
@@ -93,11 +119,8 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
 
-              <div className="bars">
                 <ul className="skills">{skills}</ul>
-              </div>
             </div>
           </div>
         </Slide>
