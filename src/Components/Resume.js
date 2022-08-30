@@ -35,7 +35,10 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p>{work.description1}</p>
+          <p>{work.description2}</p>
+          <p>{work.description3}</p>
+          <p>{work.description4}</p>
         </div>
       );
     });
@@ -51,12 +54,39 @@ class Resume extends Component {
               project.tags
             }
           </p>
-          <p>{project.description}</p>
+          <p>{project.description1}</p>
+          <p>{project.description2}</p>
+          <p>{project.description3}</p>
+          <p>{project.description4}</p>
         </div>
       )
     })
 
-    const skills = this.props.data.skills.map((skills) => {
+    const programmingskills = this.props.data.ProgrammingSkills.map((skills) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + skills.name.toLowerCase();
+      const width = skills.level;
+
+      return (
+        <li key={skills.name}>
+          <em>{skills.name}</em>
+        </li>
+      );
+    });
+    
+    const tools = this.props.data.tools.map((skills) => {
+      const backgroundColor = this.getRandomColor();
+      const className = "bar-expand " + skills.name.toLowerCase();
+      const width = skills.level;
+
+      return (
+        <li key={skills.name}>
+          <em>{skills.name}</em>
+        </li>
+      );
+    });
+
+    const operatingSystems = this.props.data.systems.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
@@ -119,10 +149,19 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
+              <h3>Programming Languages</h3>
+                <ul className="skills">{programmingskills}</ul>
+            
+            <h3>Frameworks, Tools and Technologies</h3>
+                <ul className="skills">{tools}</ul>
 
-                <ul className="skills">{skills}</ul>
+            <h3>Operating Systems</h3>
+                <ul className="skills">{operatingSystems}</ul>
+                
             </div>
           </div>
+
+
         </Slide>
       </section>
     );

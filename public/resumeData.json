@@ -3,10 +3,10 @@
     "name":"Personal Website",
     "description":"I am a software engineer and I am currently pursuing my masters at San Francisco State University. I have over one year of work experience in CRM development, and I have made projects related to image processing and mobile application development.",
     "image":"profilepic.jpg",
-    "bio":"I am a software engineer and I am currently pursuing my masters at San Francisco State University. I have over one year of work experience in CRM development, and I have made projects related to image processing and mobile application development.",
+    "bio":"I am a software engineer and I am currently pursuing my masters at San Francisco State University. I have over one year of work experience in CRM development, and I have made projects related to machine learning, image processing and mobile application development. I have also multiple open-source projects in the node package manager.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "Kshitizsareen709@gmail.com",
-    "phone": "+256-706-121-515",
+    "phone": "+14159964289",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
@@ -16,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://www.icloud.com/iclouddrive/0sk5Hvh14H6jxfmJdJxXsLbgw#Kshitiz_Tech_Resume",
+    "resumedownload":"https://cvws.icloud-content.com/B/AVpoX8GNPdGLVmW5BrNzwpcho6S7AfYeAxNLdTMDXndzozWfuLTfhU1J/Kshitiz+Resume+PDF.pdf?o=AqY3FOJ8LFRfMRWxfGyz1B5NIwN7zpmge4HSMpsMF8HL&v=1&x=3&a=CAogBkFgumImIh31GgK2HfJEgRbvLf6Kdyt24oieVOR9hVcSbxCF8-7grjAYhdDK4q4wIgEAUgQho6S7WgTfhU1JaifgVSQDuISDpQvrRqM-Z-hF_sNQxipCRpg4c64IYthOPxiDH11Y205yJyC4Kf-ugTMUYSHBsoy7oxcppk_z47f9OxAcupWf5ZrLXVAeCNIwJw&e=1661822216&fl=&r=9a225fa3-8130-414a-bc33-3fbbd00b869c-1&k=Mar0D9J365GXchWw2NxYBA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=40&s=Rmuv9GAE0PUvCDsj8qZMOs_Z-CM&cd=i",
     "social":[
       {
         "name":"twitter",
@@ -46,13 +46,13 @@
       {
         "school":"San Francisco State University",
         "degree":"Masters in Computer Science",
-        "graduated":"Aug 2021 - June 2023",
+        "graduated":"Aug 2021 - May 2023",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
         "school":"Dhirubhai Ambani Institute of Information and Communication Technology",
         "degree":"Bachelors in Information and Communication Technology",
-        "graduated":"Aug 2016 - June 2020",
+        "graduated":"Aug 2016 - May 2020",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
@@ -61,60 +61,123 @@
         "company":"Synoptek",
         "title":"Software Engineer",
         "years":"Jan 2020 - July 2021",
-        "description":"Worked with Microsoft Dynamics CRM to build, optimize and manage company data to maximize profits."
+        "description1":"Developed approximately 7 modules for more than 13 projects by building plugins and web resources using C# and JavaScript.",
+        "description2":"Enhanced productivity of over 15 solution engineers by shipping continuous improvements to Microsoft Dynamics CRM technologies.",
+        "description3":"Collaborated with over 6 teams to understand common customer problems and build solutions that tackle them.",
+        "description4":"Reduced development periods by over 2 months by building reusable tools that manage data and optimize business processes."
       },
       {
-        "company":"Self Employed",
-        "title":"Private Tutor",
-        "years":"Feb 2021 - July 2021",
-        "description":"Taught HTML, CSS and Python to 3 students in age group of 14-17."
+        "company":"San Francisco State University",
+        "title":"Graduate Teaching Assistant, CSC 210 – Introduction to Programming",
+        "years":"Aug 2022 - Present",
+        "description1":"Introduced programming concepts to a class of 50 students by teaching them the Java programming language.",
+        "description2":"Increased class participation and passing rate by 30% by initiating mentorship programs for student development.",
+        "description3":"Helped students practice programming by creating 10 weekly assignments, 3 class projects, 2 exams, and 5 quizzes."
       }
     ],
     "projects":[
       {
-        "name": "React-Native-Build-Charts",
-        "tags": "React-Native, Javascript, SVG, Graphs, Charts",
-        "description": "Built a react native npm module that takes in data and returns a chart that plots that data. The different types of charts that can be plotted are a bar chart, pie chart and line chart. Built module using react-native-svg. Has reached over 500 weekly downloads.",
-        "link": "https://github.com/KshitizSareen/react-native-build-charts"
-        },
-      {
-      "name": "React-Native-Image-Filter-Android",
-      "tags": "React-Native, Javascript, Java, Image processing",
-      "description": "Built a react native npm module that takes in an image and returns a filtered image. Built native modules using java, for performing different types of operations like grayscale, saturation, compression, rotation, cropping, colour filtering and contrast enhancement. Has reached over 1300 weekly downloads.",
-      "link": "https://github.com/KshitizSareen/react-native-image-filter-android"
+        "name": "Sports News Website",
+        "tags": "React.js, Node.js, MySQL, Google Cloud, JavaScript, SQL",
+        "description1":"Headed a team of 7 students to build a sports news web application that used React.js, Node.js, MySQL, and Google Cloud.",
+        "description2":"Built over 100 functional requirements by collaborating with developers using the Agile methodology.",
+        "description3":"Built highly available, low-latency APIs with a server response time averaging 100ms by implementing business logic through MySQL stored procedures, reducing overhead on the Node.js server.",
+        "description4":"Led the project to successful completion in 2 months by conducting daily standups, delegating tasks, and following best practices in software engineering.",
+        "link": "http://34.136.124.189:3000"
       },
       {
-        "name": "React-Native-Slice-Image",
+        "name": "Analysis of Convolutional Neural Networks and Optical Flow Algorithms",
+        "tags": "Python",
+        "description1":"Analyzed tracking duration of CNNs and optical flow algorithms by testing them on 5000 frames of moving zebrafish.",
+        "description2":"Quantified tracking of optical flow algorithms using Python 3.7, where each algorithm averaged a 30-second tracking period.",
+        "description3":"Designed and implemented a CNN using Python 3.7, which averaged an 80-second tracking period.",
+        "description4":"Led the project to successful completion in 2 months by conducting daily standups, delegating tasks, and following best practices in software engineering.",
+        "link": "https://github.com/KshitizSareen/CSC664-Project"
+      },
+      {
+        "name": "React-Native-Image-Filter-Android",
         "tags": "React-Native, Javascript, Java, Image processing",
-        "description": "Built a react native npm module that takes in an image and cuts a part of that image by using panning. Built the panning functionality using the React Native Animated Library, and the cropping functionality with the React-Native-Image-Editor Library. Has reached over 400 weekly downloads.",
-        "link": "https://github.com/KshitizSareen/react-native-slice-image"
+        "description1": "Built a react native npm module that takes in an image and returns a filtered image. Built native modules using java, for performing different types of operations like grayscale, saturation, compression, rotation, cropping, colour filtering and contrast enhancement. Has reached over 1300 weekly downloads.",
+        "link": "https://www.npmjs.com/package/react-native-image-filter-android"
         },
-        {
-          "name": "React-Native-Send-Receive-SMS-Android",
-          "tags": "React-Native, Javascript, Java, SMS Api, Android Studio",
-          "description": "Built a react native npm module that sends and receives SMS using the SMS manager in Android. Has touched 286 weekly downloads.",
-          "link": "https://github.com/KshitizSareen/react-native-send-receive-sms-android"
-          }
+      {
+        "name": "React-Native-Build-Charts",
+        "tags": "React-Native, Javascript, SVG, Graphs, Charts",
+        "description1": "Built a react native npm module that takes in data and returns a chart that plots that data. The different types of charts that can be plotted are a bar chart, pie chart and line chart. Built module using react-native-svg. Has reached over 500 weekly downloads.",
+        "link": "https://www.npmjs.com/package/react-native-build-charts"
+        }
 
     ],
-    "skills":[
+    "ProgrammingSkills":[
       {
         "name":"Python"
       },
       {
-        "name":"Javascript"
+        "name":"Java"
+      },
+      {
+        "name":"JavaScript"
+      },
+      {
+        "name":"TypeScript"
       },
       {
         "name":"C"
       },
       {
+        "name":"C++"
+      },
+      {
         "name":"C#"
       },
       {
-        "name":"React-native"
+        "name":"SQL"
       },
       {
-        "name":"Java"
+        "name":"HTML"
+      },
+      {
+        "name":"CSS"
+      },
+      {
+        "name":"Swift"
+      }
+    ],
+    "tools":[
+      {
+        "name":"React.js"
+      },
+      {
+        "name":"React-Native"
+      },
+      {
+        "name":"Node.js"
+      },
+      {
+        "name":"MySQL"
+      },
+      {
+        "name":"Google Cloud"
+      },
+      {
+        "name":"GitHub"
+      },
+      {
+        "name":"VS Code"
+      }
+    ],
+    "systems":[
+      {
+        "name":"Unix"
+      },
+      {
+        "name":"Linux"
+      },
+      {
+        "name":"macOS"
+      },
+      {
+        "name":"Microsoft Windows"
       }
     ]
   },
