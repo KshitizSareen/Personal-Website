@@ -16,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://cvws.icloud-content.com/B/AfyyZuGH5JBxMQPVnAKl1w1Yd00OAUvqywper_aqHgbKvSJZqZh7ADY0/Kshitiz+Resume+PDF.pdf?o=AqdIWgMvjqBqwJqR2oZlsJ4qy7GgfJOVj0-Roncrowjn&v=1&x=3&a=CAogwg5Ac_QFE_P_fTQBJKgIWbTbqe65M2ey9GeTPRLwYeASbxCXy_TjrjAYl6jQ5a4wIgEAUgRYd00OWgR7ADY0aicYdgyZ2VDbmJ1ZVwabLtL7h89tJNMIw5fHx9XEGMK2eLErCCwjeRlyJ65qscrZd8HIDSl3cglB_VwwMurV-uoPzR0HJrLX_AMUB72WXNvyhA&e=1661828600&fl=&r=dbbf28ae-eed2-4a6c-8806-4c5a8603187d-1&k=cMc1K9CwLtduV3LsTjFmtQ&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=40&s=_wYIyLH9Dc-7gmGY7ulN15QvUhc&cd=i",
+    "resumedownload":"https://www.icloud.com/iclouddrive/011yyA18h4XtCpWbybFfWWkDg#Kshitiz_Resume_Doc_for_Job",
     "social":[
       {
         "name":"twitter",
@@ -78,12 +78,20 @@
     "projects":[
       {
         "name": "Sports News Website",
-        "tags": "React.js, Node.js, MySQL, Google Cloud, JavaScript, SQL",
+        "tags": "React.js, Node.js, MySQL, Google Cloud, JavaScript, SQL, Agile",
         "description1":"Headed a team of 7 students to build a sports news web application that used React.js, Node.js, MySQL, and Google Cloud.",
         "description2":"Built over 100 functional requirements by collaborating with developers using the Agile methodology.",
         "description3":"Built highly available, low-latency APIs with a server response time averaging 100ms by implementing business logic through MySQL stored procedures, reducing overhead on the Node.js server.",
         "description4":"Led the project to successful completion in 2 months by conducting daily standups, delegating tasks, and following best practices in software engineering.",
         "link": "http://34.136.124.189:3000"
+      },
+      {
+        "name": "Air Quality Index Visualizer",
+        "tags": "Python, JavaScript, React.js, Node.js, D3.js, Keras, SQL, MySQL, Google Cloud",
+        "description1":"Built a visualization system using React.js and D3.js that provides insights to air quality indexes of over 120 countries.",
+        "description2":"Visualized an air quality index dataset of over 5000 records by implementing bar charts, muti-series line charts, and choropleth maps.",
+        "description3":"Created an AQI prediction system with a 92% accuracy by using Keras to implement a deep neural network of over 40,000 parameters.",
+        "link": "https://ecohacks-361600.wl.r.appspot.com"
       },
       {
         "name": "Analysis of Convolutional Neural Networks and Optical Flow Algorithms",
